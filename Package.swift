@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/CarlitosDroid/storage-kit-ios-binary/releases/download/v1.0.1/StorageKit.xcframework.zip")),
+        .package(url: "https://github.com/kishikawakatsumi/KeychainAccess.git", .upToNextMinor(from: "4.2.0")),
     ],
     targets: [
         .binaryTarget(
