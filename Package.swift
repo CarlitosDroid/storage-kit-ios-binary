@@ -18,8 +18,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "StorageKit",
-            url: "https://github.com/CarlitosDroid/storage-kit-ios-binary/releases/download/v1.0.2/StorageKit.xcframework.zip",
-            checksum: "f26bfb093d77692b64da59def0488801faceba7ffd0b868dd001e67af62bf4a7"
+            url: "https://github.com/CarlitosDroid/storage-kit-ios-binary/releases/download/v1.0.3/StorageKit.xcframework.zip",
+            checksum: "fa72161eb1c2bcd0aed5453f2d24c925eef93135aafc10dbaa906a389d248e06"
         ),
         // A binaryTarget can't declare dependencies, so this target carries KeychainAccess.
         .target(
